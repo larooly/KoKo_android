@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#66ceff</item>
+        <!--메인 바 색상-->
+        <item name="colorPrimaryDark">#66ceff</item>
+        <!--맨위 시간 표시된 곳-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+</resources>

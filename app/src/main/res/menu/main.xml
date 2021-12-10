@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/SetEraserPencil"
+        app:showAsAction="always"
+        android:icon="@drawable/erasericon"
+        android:title="eraser">
+    </item>
+    <item
+        android:id="@+id/dodo"
+        app:showAsAction="always"
+
+        android:title="pens">
+        <menu>
+            <item
+                android:id="@+id/brush"
+                app:showAsAction="never"
+                android:title="BrushSetting">
+                <menu>
+                    <item
+                        android:id="@+id/color"
+                        app:showAsAction="never"
+
+                        android:title="Color"/>
+                    <item
+                        android:id="@+id/pensize"
+                        app:showAsAction="never"
+                        android:title="PenSize"/>
+
+                </menu>
+            </item>
+
+
+            <item
+                android:id="@+id/Style"
+                app:showAsAction="never"
+                android:title="BrushStyle">
+                <menu>
+                    <group
+                        android:checkableBehavior="single"
+                        >
+                    <item
+                        android:id="@+id/normal"
+                        app:showAsAction="never"
+                        android:title="Normal"
+
+                        />
+                    <item
+                        android:id="@+id/emboss"
+                        app:showAsAction="never"
+                        android:title="Emboss"/>
+                    <item
+                        android:id="@+id/blur"
+                        app:showAsAction="never"
+                        android:title="Blur"/>
+                    </group>
+                </menu>
+            </item>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/backandclear"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="pens">
+        <menu>
+        <item
+            android:id="@+id/ChangeBackground"
+            app:showAsAction="never"
+            android:title="ChangeBackground">
+            <menu>
+                <item
+                    android:id="@+id/toGallery"
+                    app:showAsAction="never"
+                    android:title="Gallery"/>
+                <item
+                    android:id="@+id/toCamera"
+                    app:showAsAction="never"
+                    android:title="Camera"/>
+                <item
+                    android:id="@+id/resetBack"
+                    app:showAsAction="never"
+                    android:title="Reset"/>
+
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/clear"
+            app:showAsAction="never"
+            android:title="Clear">
+            <menu>
+                <item
+                    android:id="@+id/AllClear"
+                    app:showAsAction="never"
+                    android:title="All"/>
+                <item
+                    android:id="@+id/onlyPath"
+                    app:showAsAction="never"
+                    android:title="Only Draw"/>
+            </menu>
+        </item>
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/rotate"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_crop_rotate_black_24dp"
+        android:title="pens">
+        <menu>
+            <item
+                android:id="@+id/right"
+                app:showAsAction="never"
+                android:title="오른쪽"/>
+            <item
+                android:id="@+id/left"
+                app:showAsAction="never"
+                android:title="왼쪽"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/saveFile"
+        app:showAsAction="never"
+        android:title="SaveImage"/>
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:title="ShareImage"/>
+
+
+    <item
+        android:id="@+id/warning"
+        app:showAsAction="never"
+        android:title="Don't touch">
+
+    </item>
+
+
+</menu>
